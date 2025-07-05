@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  .light\:bg-light-hover {
+    background-color: #fcf4ff;
+  }
+
+  .light\:bg-light-theme {
+    background-color: #fff;
+  }
+
+  .light\:text-light-theme {
+    color: #11001f;
+  }
+
+  .dark\:bg-dark-hover {
+    background-color: #2a004a;
+  }
+
+  .dark\:bg-dark-theme {
+    background-color: #11001f;
+  }
+
+  .dark\:text-dark-theme {
+    color: #fff;
+  }
+
+  .font-outfit {
+    font-family: "Outfit", sans-serif;
+  }
+
+  .font-ovo {
+    font-family: "Ovo", serif;
+  }
+
+  .hover\:shadow-black:hover {
+    box-shadow: 4px 4px 0 #000;
+  }
+
+  .hover\:shadow-white:hover {
+    box-shadow: 4px 4px 0 #fff;
+  }
+}
