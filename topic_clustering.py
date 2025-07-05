@@ -10,7 +10,7 @@ def  topic_clustering(data):
     model = SentenceTransformer('all-MiniLM-L6-v2')
     embeddings = model.encode(headlines)
 
-    clustering = DBSCAN(eps=0.6, min_samples=2, metric='cosine').fit(embeddings)
+    clustering = DBSCAN(eps=0.5, min_samples=2, metric='cosine').fit(embeddings)
 
     clustered = {}
     for i, label in enumerate(clustering.labels_):
