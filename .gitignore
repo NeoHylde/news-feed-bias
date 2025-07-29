@@ -1,0 +1,46 @@
+/backend/sources/
+
+/backend/__pycache__/
+/backend/*.py[cod]
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/news-feed-bias/node_modules
+/news-feed-bias/.pnp
+/news-feed-bias/.pnp.*
+/news-feed-bias/.yarn/*
+/news-feed-bias/!.yarn/patches
+/news-feed-bias/!.yarn/plugins
+/news-feed-bias/!.yarn/releases
+/news-feed-bias/!.yarn/versions
+
+# testing
+/news-feed-bias/coverage
+
+# next.js
+/news-feed-bias/.next/
+/news-feed-bias/out/
+
+# production
+/news-feed-bias/build
+
+# misc
+/news-feed-bias/.DS_Store
+/news-feed-bias/*.pem
+
+# debug
+/news-feed-bias/npm-debug.log*
+/news-feed-bias/yarn-debug.log*
+/news-feed-bias/yarn-error.log*
+/news-feed-bias/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/news-feed-bias/.env*
+
+# vercel
+/news-feed-bias/.vercel
+
+# typescript
+/news-feed-bias/*.tsbuildinfo
+/news-feed-bias/next-env.d.ts
